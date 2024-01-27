@@ -30,3 +30,4 @@
 30) git branch -d x //Deletes branch x
 31) git push --all //Pushes all branches to github
 32) git push -u origin main //Pushes local changes to github
+33) git pull //Gets changes back to local
