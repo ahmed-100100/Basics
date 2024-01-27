@@ -1,0 +1,26 @@
+html{
+    font-size: 22px
+}
+body{
+    background-color: mediumseagreen;
+    color: whitesmoke;
+}
+a{
+    cursor: pointer;
+}
+a:visited{
+    color:indigo;
+}
+a:hover{
+    color:darkblue;
+}
+.pp{
+    width: 35%;
+}
+.pp img{
+    width: 70%;
+    height: auto;
+    min-width: 100;
+    border: 5px double darkgrey;
+    border-radius: 50%;
+}

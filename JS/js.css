@@ -1,0 +1,82 @@
+html{
+    background-color:teal;
+    color: black;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+/* h1{
+font-size: 1.5rem;
+} */
+
+/* Seb7a 
+#count{
+    display:block;
+    text-align:center;
+    font-size: 50px;
+}
+#decbtn{
+    margin-left: 9rem;
+} */
+
+/* .check{
+    width: 20px;
+    height: 20px;
+}
+.rad{
+    width: 15px;
+    height: 15px;
+} */
+
+/* .submit{
+padding: .5em;
+font-size: 20px;
+color: grey;
+background-color: black;
+border-radius: 100%;
+margin-top:.5em;
+margin-bottom:.5em;
+} */
+
+/* #div{
+    background-color:red;
+    width: 100px;
+    height: 100px;
+    margin-top: 1rem;
+} */
+
+/* #img{
+    width: 500px;
+    margin: 2rem;
+} */
+
+/* #div{
+    background-color:indigo;
+    width: 100px;
+    height: 100px;
+    border: 1px;
+    position: relative;
+} */
+
+/* .timerBtn{
+    width: 80px;
+    height: 30px;
+    border: 3px solid;
+    border-radius: 120px;
+    background-color: #33333333;
+    color: white;
+    cursor: pointer;
+    font-family: consolas,monospace;
+    margin-bottom: 0.5rem;
+}
+#timeDisplay{
+    font-size: 75px;
+    color: blue;
+    font-family: consolas,monospace;
+}
+#timeContainer{
+text-align: center;
+border: 3px solid;
+border-radius: 250px;
+background-color: #222222;
+} */

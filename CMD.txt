@@ -1,0 +1,28 @@
+                                Commands280
+                               --------------
+1) netsh wlan show profile
+2) netsh wlan show profile "name" key=clear //(password = key content)
+3) systeminfo
+4) color 02
+5) color/?
+6) curl wttr.in/City
+5) curl qrenco.de/URL
+6) curl -s URL
+7) start URL
+8) del /q /f /s %temp%\*
+   del /s /q C:\Windows\temp\*
+9) shift + f7 = list of previous command
+10) cls
+11) doskey /history
+12) help
+13) keyword /?        //To see how to use this keyword
+14) cd x             //Changes directory to x
+15) cd ..           //Goes Back
+16) dir            //Shows data in directory
+17) file.exe      //Opens the file
+18) md x         //Creates folder x
+19) rd x        //Removes folder x
+20) echo > file.exe //Creates the file and writes in it
+21) del file.exe //Deletes the file
+22) type file.exe //Reads the file
+23) copy f1.exe > f2.exe //copies f1 and names it as f2

@@ -1,0 +1,31 @@
+1) git config --global user.name "Ahmed Hassan" //Sets Username
+2) git config --global user.email ahmedaemara078@gmail.com //Sets E-mail
+3) git config --global init.dafault branch main //Sets Branch
+4) git command -h //Shows command uses
+5) git help command //More details about command
+6) clear //Clears
+7) cd c:/Users/Hassan/Desktop/Codes/JS //Changes directory
+8) git init //Creates a repository in the directory
+9) git status //Displays the state of wd&sa
+10) git add fileName //From wd to sa
+11) git add --all OR git add -A OR git add . //Adds all directory files
+12) git commit -m "first commit" //From sa to cmt
+13) git commit -a -m "updated text to free range" //From wd to sa&cmt
+14) git rm fileName //Removes from wd&sa
+15) git rm --cached fileName //Removes the copy from sa
+16) git restore fileName //Copies file from cmt to wd&sa
+17) git restore --staged fileName //Copies file from cmt to sa
+18) git diff //Last changes in wd
+19) git mv "fileName1" "fileName2" //Renames file
+20) git log -p //Shows all previous commits (hash,author,date,message,changes).Press q to exit
+21) git log //Shows all previous commits (hash,author,date,message)
+22) git log --oneline //Shows all previous commits (breif hash,message)
+23) git reset <hash> //Jumps back to previous commits
+24) git rebase -i --root //Modifies history book. Type :x to exit
+25) git branch //Show all branches
+26) git branch x //Creates new branch x extends the current branch
+27) git switch x //Switches to x branch
+28) git switch -c x //26+27
+29) git merge -m "Merge x back to master" x //Returns changes in sub-branch into the main one
+30) git branch -d x //Deletes branch x
+31) 

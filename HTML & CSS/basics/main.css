@@ -1,0 +1,91 @@
+html{
+    font-size: 22px
+}
+body{
+    /* background-image: url(img/Sea.webp); */
+    background-color: teal;
+    /* rgb(0,128,128) */
+    color: whitesmoke;
+    /*padding: 10%;
+    font-size: 2rem;*/
+}
+h1,h2{
+    color: black;
+}
+table, tr, th, td, caption{
+    border: 1px solid #eee;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
+.lon{
+    margin: 1rem;
+}
+.par{
+    margin: 1rem;
+}
+.dub{
+    margin: 1rem;
+}
+h3{
+    text-decoration:underline;
+    text-transform: capitalize;
+    /*text-transform: uppercase;
+    text-transform: lowercase;
+    text-align: right;
+    font-weight: lighter;*/
+}
+.hours{
+    text-decoration: line-through;
+}
+.topics{
+border: 3px solid black;
+border-radius: 2rem;
+max-width: 230px;
+max-height: 200px;
+margin: 1rem;
+}
+.toplinks{
+list-style-type: none;
+list-style-position: inside;
+}
+.toplinks a, .toplinks a:visited{
+    text-decoration: none;
+    text-align: center;
+}
+.toplinks a:hover, .toplinks a:focus{
+    background:aqua;
+    color:black;
+    border-radius: 2rem;
+    padding: 0.3rem;
+}
+ul{
+    line-height: 1.5;
+}
+a{
+    cursor: pointer;
+}
+a:visited{
+    color:indigo;
+}
+a:hover{
+    color:darkblue;
+}
+/*ol{
+    list-style-type:decimal-leading-zero;
+}*/
+.do{
+    display: inline-block;
+    /*block element (not inline-block element) takes the full width of the page*/
+    background-color:cornflowerblue;
+    color: darkblue;
+    border-radius: 2rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0.3rem;
+}
+.time{
+    padding-left: 3rem;
+}
+.activity{
+    padding-left: 9rem;
+}
