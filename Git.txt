@@ -28,4 +28,4 @@
 28) git switch -c x //26+27
 29) git merge -m "Merge x back to master" x //Returns changes in sub-branch into the main one
 30) git branch -d x //Deletes branch x
-31) 
+31) git push --all //Pushes all branches to github
