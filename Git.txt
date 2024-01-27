@@ -29,3 +29,4 @@
 29) git merge -m "Merge x back to master" x //Returns changes in sub-branch into the main one
 30) git branch -d x //Deletes branch x
 31) git push --all //Pushes all branches to github
+32) git push -u origin main //Pushes local changes to github
