@@ -4,7 +4,7 @@
 4) git command -h //Shows command uses
 5) git help command //More details about command
 6) clear //Clears
-7) cd c:/Users/Hassan/Desktop/Codes/JS //Changes directory
+7) cd c:/Users/Hassan/Desktop/Codes //Changes directory
 8) git init //Creates a repository in the directory
 9) git status //Displays the state of wd&sa
 10) git add fileName //From wd to sa
