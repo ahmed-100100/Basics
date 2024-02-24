@@ -38,7 +38,7 @@ public class Admin extends Person {
 
   public void showAllStudents() {
     String filePath =
-      "C:\\Users\\Hassan\\Desktop\\Codes\\JAVA\\Course Management System\\CourseManagement\\data\\users.txt";
+      "C:\\Users\\Ahmed\\Desktop\\Codes\\JAVA\\Course Management System\\CourseManagement\\data\\users.txt";
     StringBuilder result = new StringBuilder();
     try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
       String line;
@@ -78,7 +78,7 @@ public class Admin extends Person {
 
   public void showAllInstructor() {
     String filePath =
-      "C:\\Users\\Hassan\\Desktop\\Codes\\JAVA\\Course Management System\\CourseManagement\\data\\users.txt";
+      "C:\\Users\\Ahmed\\Desktop\\Codes\\JAVA\\Course Management System\\CourseManagement\\data\\users.txt";
     StringBuilder result = new StringBuilder();
     try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
       String line;
