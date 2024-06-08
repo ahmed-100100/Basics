@@ -32,3 +32,4 @@
 32) git push -u origin main //Pushes local changes to github
 33) git pull //Gets changes back to local
 34) git clone //Gets whole repository to local.
+34) git remote set-url origin https://<token>@github.com/<username>/<repo>     //Git Authentication
