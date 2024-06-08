@@ -1,0 +1,27 @@
+cd PATH                                // Changes Directory.
+cd ..				       // Jumps Back. 
+cd			               // Back Home.
+pwd				       // Prints Work Directory.
+clear				       // Clears.
+ls				       // Lists files in current directory.
+ls -l                                  // ls with more details.
+ls -al                                 // ls with more details and hidden stuff.
+touch FileName1 FileName2              // Creates Files.
+mkdir Folder1 Folder2                  // Creates Folders.
+rm FileName1 FileName2                 // Removes Files.
+rmdir Folder1 Folder2                  // Removes Empty Folders.
+rm -r Folder                           // Removes Non-Empty Folders.
+rm directory/*                         // Clears Directory.
+free                                   // Checks Memory.
+df                                     // Checks Space.
+sudo dpkg -i Folder                    // Depakages Folder.
+sudo reboot                            // Reboots in 60secs.
+sudo shutdown                          // Shutdowns in 60secs.
+sudo shutdown -h                       // Shutdowns NOW.
+shutdown -c                            // Canceles sudo shutdown.
+fdisk --help                           // Helps.
+sudo fdisk -l                          // Lists all partitions on disk.
+df                                     // Shows the available space on the file system.
+cp --help                              // Helps.
+cp FileName Directory                  // Copies file to directory.
+sudo gdisk -l /dev/sda                 // Disk info.
