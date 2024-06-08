@@ -360,7 +360,7 @@ shoppingcart+=store.get("Cargo");
 shoppingcart+=store.get("Jordans");
 console.log(`Your Cart = ${shoppingcart} EGP`);
 #####################################################################################################*/
-/* Objects
+/* Literal Objects
 const car1 = {
     car: "BMW",
     model: "3-series",
@@ -690,11 +690,75 @@ function updateTime(){
     }
 }
 #####################################################################################################*/
-/* END
-OF
-TEXT.....
-NOW
-WE'VE FINISHED
-JS COURSE
-ALHAMDULELLAH 
+/* GET
+fetch('/users?name=Ahmed&age=20')
+    .then(respone => respone.json())
+    .then(data => console.log(data))
+    .catch(error => console.error(error));
+#####################################################################################################*/
+/* POST
+const userData = {name : 'Ahmed' , age : 20};
+fetch('users/' , {
+    method : 'POST',
+    body : JSON.stringify(userData),
+    headers : {'Content-Type' : 'application/json'}
+})
+    .then(respone => respone.json())
+    .then(data => console.log(data))
+    .catch(error => console.error(error));
+#####################################################################################################*/
+/* PUT
+const userData = {id : 1 , name : 'Ahmed' , age : 1000};
+fetch('users/1' , {
+    method : 'PUT',
+    body : JSON.stringify(updatedUserData),
+    headers : {'Content-Type' : 'application/json'}
+})
+    .then(respone => respone.json())
+    .then(data => console.log(data))
+    .catch(error => console.error(error));
+#####################################################################################################*/
+/* PATCH
+const userDataPatch = new URLSearchParams();
+userDataPatch.append('age' , 20);
+fetch('users/1' , {
+    method : 'PATCH',
+    body : userDataPatch,
+    headers: {'Content-Type': 'application/x-www-form-urlencoded'}
+})
+    .then(respone => respone.json())
+    .then(data => console.log(data))
+    .catch(error => console.error(error));
+#####################################################################################################*/
+/* DELETE
+fetch('users/1' , {
+    method : 'DELETE',
+})
+.then(response => {
+    if (response.ok) {
+        console.log('User deleted successfully!');
+    }
+    else{
+        console.error('Error deleting user!');
+    }
+})
+.catch(error => console.error(error));
+#####################################################################################################*/
+/* Memonizer Function
+const memoize = (fn) => {
+    let cache = {}
+    return(...args) => {
+        let cacheKey = args.map(n => n.toString() + '+').join('')
+        if(cacheKey in cache){
+            return cache[cacheKey]
+        }
+        else{
+            let result = args.reduce((acc,curr) => fn(acc,curr) , 0);
+            cache[cacheKey] = result;
+            return result;
+        }
+    }
+}
+const add = (a,b) => a+b;
+const memoizeAdd = memoize(add)
 #####################################################################################################*/

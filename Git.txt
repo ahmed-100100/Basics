@@ -31,4 +31,4 @@
 31) git push --all //Pushes all branches to github
 32) git push -u origin main //Pushes local changes to github
 33) git pull //Gets changes back to local
-34) git clone https://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@github.com/ahmed-100100/Basics.git //Tempo authentication to GitHub.
+34) git clone //Gets whole repository to local.
