@@ -4,7 +4,7 @@ html{
     font-family:Arial, Helvetica, sans-serif;
 }
 body{
-    background-image: url(b0.jpg);
+    background-image: url(/home/ahmed/Documents/Projects/Basics/HTML&CSS/img/b0.jpg);
     background-size: 102%;
     max-width: 800;
 }

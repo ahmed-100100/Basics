@@ -690,6 +690,69 @@ function updateTime(){
     }
 }
 #####################################################################################################*/
+/* Age Calculator
+document.getElementById('button').addEventListener('click', calculateAge);
+function calculateAge() {
+    const dobInput = document.getElementById('DOB').value;
+    const dobParts = dobInput.split('/');
+    if (dobParts.length !== 3) {
+        alert('Please enter a valid date in DD/MM/YYYY format.');
+        return;
+    }
+    const day = parseInt(dobParts[0]);
+    const month = parseInt(dobParts[1]) - 1; // Months are zero-based in JavaScript
+    const year = parseInt(dobParts[2]);
+    const dob = new Date(year, month, day);
+    const now = new Date();
+    if (dob > now) {
+        alert('Date of birth cannot be in the future.');
+        return;
+    }
+    let ageYears = now.getFullYear() - dob.getFullYear();
+    let ageMonths = now.getMonth() - dob.getMonth();
+    let ageDays = now.getDate() - dob.getDate();
+    if (ageDays < 0) {
+        ageMonths--;
+        ageDays += new Date(now.getFullYear(), now.getMonth(), 0).getDate();
+    }
+    if (ageMonths < 0) {
+        ageYears--;
+        ageMonths += 12;
+    }
+    document.getElementById('age').innerText = `Your age is ${ageYears} years, ${ageMonths} months, and ${ageDays} days.`;
+}
+#####################################################################################################*/
+/* To-Do List
+document.getElementById('addTaskButton').addEventListener('click', addTask);
+function addTask() {
+    const taskInput = document.getElementById('taskInput');
+    const taskText = taskInput.value.trim();
+    if (taskText === '') {
+        alert('Please enter a task.');
+        return;
+    }
+    const taskList = document.getElementById('taskList');
+    const li = document.createElement('li');
+    li.textContent = taskText;
+    // Add event listener to mark task as complete
+    li.addEventListener('click', function() {
+        li.classList.toggle('completed');
+    });
+    // Create delete button
+    const deleteButton = document.createElement('button');
+    deleteButton.textContent = 'Delete';
+    deleteButton.classList.add('deleteButton');
+    deleteButton.addEventListener('click', function() {
+        taskList.removeChild(li);
+    });
+    // Append delete button to list item
+    li.appendChild(deleteButton);
+    // Append list item to task list
+    taskList.appendChild(li);
+    // Clear the input field
+    taskInput.value = '';
+}
+#####################################################################################################*/
 /* GET
 fetch('/users?name=Ahmed&age=20')
     .then(respone => respone.json())

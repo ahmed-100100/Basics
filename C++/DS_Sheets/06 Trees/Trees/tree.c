@@ -43,7 +43,7 @@ int height(treeType t){
     if (!t){return 0;}
 int a=height(t->left);
 int b=height(t->right);
-return (a>b)? 1+a : 1+b;
+return (a>b)? a : b;
 }
 void clearTree(treeType *t){
 if (*t){

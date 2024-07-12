@@ -17,11 +17,11 @@ import java.awt.Font;
 import java.awt.event.*;*/
 public class Main {
 	public static void main(String[] args) {
-		/* Simple Output
+		 //Simple Output
 		System.out.println("Hello World!");
 		System.out.print("\tI'm Ahmed.\n");
 		System.out.print("\"This is a double quoted sentence\".");
-		System.out.println(); = sysout + ctrl + space
+		/*System.out.println(); = sysout + ctrl + space
 		############################################################*/
 		// This is a comment
 		/* This is
