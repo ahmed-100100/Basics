@@ -753,6 +753,38 @@ function addTask() {
     taskInput.value = '';
 }
 #####################################################################################################*/
+/* Promises
+const myPromise = new Promise((resolve, reject) => {
+  let success = true;
+  if (success) {
+    resolve("Operation was successful!");
+  } else {
+    reject("Operation failed!");
+  }
+});
+myPromise
+  .then(result => {
+    console.log(result);
+  })
+  .catch(error => {
+    console.error(error);
+  })
+  .finally(() => {
+    console.log("Operation complete, regardless of outcome.");
+  });
+#####################################################################################################*/
+/* API
+fetch('https://api.example.com/users/123', {
+  method: 'GET',
+  headers: {
+    'Authorization': 'Bearer your-access-token',
+    'Content-Type': 'application/json'
+  }
+})
+.then(response => response.json())
+.then(data => console.log(data))
+.catch(error => console.error('Error:', error));
+#####################################################################################################*/
 /* GET
 fetch('/users?name=Ahmed&age=20')
     .then(respone => respone.json())
@@ -824,4 +856,35 @@ const memoize = (fn) => {
 }
 const add = (a,b) => a+b;
 const memoizeAdd = memoize(add)
+#####################################################################################################*/
+/* AJAX
+var myHttp = new XMLHttpRequest();
+myHttp.open(
+  "GET",
+  "https://api.themoviedb.org/3/trending/all/day?api_key=c9fac173689f5f01ba1b0420f66d7093"
+);
+myHttp.send();
+myHttp.addEventListener("readystatechange", function () {
+  if (myHttp.readyState == 4 && myHttp.status == 200) {
+    var res = JSON.parse(myHttp.response);
+    data = res.results;
+    displayData();
+  }
+});
+#####################################################################################################*/
+/* Async/Await
+async function getUserDataAndPosts(userId) {
+    try {
+      const userResponse = await fetch(`https://api.example.com/users/${userId}`);
+      const user = await userResponse.json();
+      console.log('User:', user);
+  
+      const postsResponse = await fetch(`https://api.example.com/users/${userId}/posts`);
+      const posts = await postsResponse.json();
+      console.log('Posts:', posts);
+    } catch (error) {
+      console.error('Error:', error);
+    }
+  }
+  getUserDataAndPosts(1);
 #####################################################################################################*/
